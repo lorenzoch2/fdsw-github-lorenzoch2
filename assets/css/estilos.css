@@ -11,6 +11,12 @@ body {
   background-position: right;
 }
 
+/* Acerca de mi*/
+
+#Acerca-de-mi{
+  background-color: rgb(173, 202, 255);
+}
+
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
@@ -22,9 +28,14 @@ body {
 
 /* Contacto */
 
+#Contacto h2{
+  color:green
+}
+
 #Contacto form label {
   font-weight: 700;
-  color: #373a3c;
+  /*color: #373a3c;*/
+  color:green;
 }
 
 @media (max-width: 768px) {
